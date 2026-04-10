@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - TwinklyJewel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">✨ TwinklyJewel</div>
+            <button class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="mobile-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about-hero">
+        <h1>Our Collections</h1>
+        <p>Discover our exquisite selection of handcrafted jewelry</p>
+    </section>
+
+    <section class="featured-section">
+        <div class="filters">
+            <button class="filter-button active" data-category="all">All Products</button>
+            <button class="filter-button" data-category="rings">Rings</button>
+            <button class="filter-button" data-category="necklaces">Necklaces</button>
+            <button class="filter-button" data-category="bracelets">Bracelets</button>
+            <button class="filter-button" data-category="earrings">Earrings</button>
+        </div>
+
+        <div class="products-grid">
+            <div class="product-card product rings">
+                <div class="product-image">💍</div>
+                <div class="product-info">
+                    <h3>Emerald Elegance Ring</h3>
+                    <p class="product-price">$1,250</p>
+                    <p class="product-description">14K white gold ring with emerald gemstone and diamond accents. Perfect for engagements or special occasions.</p>
+                    <button class="add-to-cart" data-product-id="1">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card product rings">
+                <div class="product-image">💎</div>
+                <div class="product-info">
+                    <h3>Solitaire Diamond Ring</h3>
+                    <p class="product-price">$4,200</p>
+                    <p class="product-description">Classic solitaire with a 1-carat VS1 diamond in 18K white gold. A forever symbol of love and commitment.</p>
+                    <button class="add-to-cart" data-product-id="2">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card product rings">
+                <div class="product-image">👑</div>
+                <div class="product-info">
+                    <h3>Sapphire Statement Ring</h3>
+                    <p class="product-price">$2,850</p>
+                    <p class="product-description">Stunning sapphire surrounded by diamond halo in 18K gold. An elegant choice for the sophisticated collector.</p>
+                    <button class="add-to-cart" data-product-id="3">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card product rings">
+                <div class="product-image">💫</div>
+                <div class="product-info">
+                    <h3>Vintage Rose Gold Ring</h3>
+                    <p class="product-price">$1,450</p>
+                    <p class="product-description">Intricate vintage design with rose gold and rose quartz. A romantic piece perfect for celebrating love.</p>
+                    <button class="add-to-cart" data-product-id="4">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card product necklaces">
+                <div class="product-image">📿</div>
+                <div class="product-info">
+                    <h3>Pearl Luxury Necklace</h3>
+                    <p class="product-price">$890</p>
+                    <p class="product-description">South Sea pearl necklace with 18K gold chain. A timeless piece that elevates any wardrobe.</p>
+                    <button class="add-to-cart" data-product-id="5">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card product necklaces">
+                <div class="product-image">✨</div>
+                <div class="product-info">
+                    <h3>Diamond Pendant Necklace</h3>
+                    <p class="product-price">$2,150</p>
+                    <p class="product-description">Exquisite diamond pendant on a delicate 18K white gold chain. Perfect for everyday elegance.</p>
+                    <button class="add-to-cart" data-product-id="6">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card product necklaces">
+                <div class="product-image">💝</div>
+                <div class="product-info">
+                    <h3>Heart Locket Necklace</h3>
+                    <p class="product-price">$1,100</p>
+                    <p class="product-description">Charming gold locket with heart design. Store your precious memories close to your heart.</p>
+                    <button class="add-to-cart" data-product-id="7">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card product necklaces">
+                <div class="product-image">🌙</div>
+                <div class="product-info">
+                    <h3>Moonstone Celestial Necklace</h3>
+                    <p class="product-price">$1,350</p>
+                    <p class="product-description">Ethereal moonstone pendant with star accents in silver. A magical piece for dreamers.</p>
+                    <button class="add-to-cart" data-product-id="8">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card product bracelets">
+                <div class="product-image">⌚</div>
+                <div class="product-info">
+                    <h3>Diamond Tennis Bracelet</h3>
+                    <p class="product-price">$2,100</p>
+                    <p class="product-description">Stunning tennis bracelet featuring VS1 diamond stones in 18K yellow gold. Made to last a lifetime.</p>
+                    <button class="add-to-cart" data-product-id="9">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card product bracelets">
+                <div class="product-image">🎀</div>
+                <div class="product-info">
+                    <h3>Sapphire Bangle Bracelet</h3>
+                    <p class="product-price">$1,650</p>
+                    <p class="product-description">Bold sapphire bangle with intricate detailing. A statement piece that commands attention.</p>
+                    <button class="add-to-cart" data-product-id="10">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card product bracelets">
+                <div class="product-image">💛</div>
+                <div class="product-info">
+                    <h3>Gold Chain Bracelet</h3>
+                    <p class="product-price">$780</p>
+                    <p class="product-description">Classic 18K gold chain bracelet with refined links. Versatile elegance for any occasion.</p>
+                    <button class="add-to-cart" data-product-id="11">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card product bracelets">
+                <div class="product-image">🌸</div>
+                <div class="product-info">
+                    <h3>Gemstone Garden Bracelet</h3>
+                    <p class="product-price">$1,420</p>
+                    <p class="product-description">Colorful multi-gemstone bracelet with flower motifs. A joyful celebration of nature's beauty.</p>
+                    <button class="add-to-cart" data-product-id="12">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card product earrings">
+                <div class="product-image">✨</div>
+                <div class="product-info">
+                    <h3>Celestial Drop Earrings</h3>
+                    <p class="product-price">$650</p>
+                    <p class="product-description">Delicate drop earrings with cubic zirconia and gold plating. Elegant for everyday or formal wear.</p>
+                    <button class="add-to-cart" data-product-id="13">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card product earrings">
+                <div class="product-image">💎</div>
+                <div class="product-info">
+                    <h3>Diamond Stud Earrings</h3>
+                    <p class="product-price">$1,800</p>
+                    <p class="product-description">Classic 1-carat diamond studs in 18K white gold. Timeless elegance that never goes out of style.</p>
+                    <button class="add-to-cart" data-product-id="14">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card product earrings">
+                <div class="product-image">🌺</div>
+                <div class="product-info">
+                    <h3>Pearl Floral Earrings</h3>
+                    <p class="product-price">$920</p>
+                    <p class="product-description">Cultured pearl studs with delicate flower detailing. A sophisticated choice for any wardrobe.</p>
+                    <button class="add-to-cart" data-product-id="15">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card product earrings">
+                <div class="product-image">🔴</div>
+                <div class="product-info">
+                    <h3>Ruby Chandelier Earrings</h3>
+                    <p class="product-price">$1,540</p>
+                    <p class="product-description">Stunning ruby chandelier earrings with intricate gold work. Perfect for evening events and celebrations.</p>
+                    <button class="add-to-cart" data-product-id="16">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <h2>Join Our Community</h2>
+        <p>Subscribe to receive exclusive offers, new collection launches, and jewelry care tips</p>
+        <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit" class="subscribe-btn">Subscribe</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>TwinklyJewel</h4>
+                <p>Handcrafted luxury jewelry for every moment that matters. Each piece tells a story.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="products.html">Shop</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Pinterest</a>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2026 TwinklyJewel. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

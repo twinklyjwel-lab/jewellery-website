@@ -1,0 +1,12 @@
+{
+  "name": "twinklyjewel",
+  "version": "1.0.0",
+  "description": "Luxury handcrafted jewelry website",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Project is ready'"
+  },
+  "keywords": ["jewelry", "luxury", "handcrafted"],
+  "author": "TwinklyJewel",
+  "license": "MIT"
+}
