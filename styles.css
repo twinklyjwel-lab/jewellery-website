@@ -649,3 +649,30 @@ footer {
         gap: 20px;
     }
 }
+
+/* Live catalogue from the CRM (catalogue.js) */
+.catalogue-status {
+    text-align: center;
+    color: #777;
+    margin: 1rem auto 2rem;
+    max-width: 36rem;
+}
+
+.product-image.has-photo {
+    padding: 0;
+    overflow: hidden;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+a.add-to-cart {
+    box-sizing: border-box;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
